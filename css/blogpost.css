@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7FFFD4; /* Aquamarine background color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav {
+    background-color: #ddd;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly */
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    background-color: rgb(226, 6, 230);
+    padding: 20px;
+}
+
+.blogpost {
+    margin-bottom: 20px;
+}
+
+.blogpost h2 {
+    font-family: 'Georgia', serif; /* Stylish font for blogpost title */
+}
+
+.blogpost p {
+    background-color: #0cd5c5; /* Light grey background color for paragraph */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for paragraph */
+}
