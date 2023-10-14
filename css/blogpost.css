@@ -18,10 +18,12 @@ body {
     color: white;
     padding: 10px 0;
     text-align: center;
+    border-radius: 10px;
 }
 
 .nav {
     background-color: #ddd;
+    border-radius: 10px;
 }
 
 .nav ul {
@@ -39,6 +41,7 @@ body {
 .content {
     background-color: rgb(226, 6, 230);
     padding: 20px;
+    border-radius: 10px;
 }
 
 .blogpost {
